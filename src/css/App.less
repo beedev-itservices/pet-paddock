@@ -1,0 +1,45 @@
+@import './less/reset.less';
+@import './less/base.less';
+
+.app {
+    background-color: @mainbg;
+    color: @font;
+
+    header {
+        .flexcolumn();
+        background-color: @navbg;
+        color: @mainbg;
+        padding: 1em;
+        border: @border;
+
+        h2 {
+            .flexrow();
+            font-size: 2em;
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+
+    footer {
+        .flexcolumn();
+        padding: 1em;
+        background-color: @alt;
+        border: @border;
+
+        .madeby {
+            .flexrow();
+
+            img {
+                width: 2em;
+                margin: 1em;
+            }
+            h4 {
+                color: @mainbg;
+            }
+        }
+    }
+}
+
+
+
+@import './less/media.less';

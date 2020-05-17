@@ -1,0 +1,32 @@
+// Variables
+
+@font: #050816;
+@mainbg: #FEFADC;
+@navbg: #3F612D;
+@alt: #95583E;
+@borderbg: #FEEA00;
+@border: 6px groove @borderbg;
+@altborder: 4px groove @alt;
+@imgborder: 4px groove @mainbg;
+@950: ~"only screen and (min-width: 950px)";
+@730: ~"only screen and (min-width: 730px)";
+@400: ~"only screen and (min-width: 400px)";
+
+// Mixins
+
+.flexrow {display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+.flexcolumn {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.flexcolumnalt {display: flex;
+    flex-direction: column;}
+
+
+// Basic Styles
+
+.center {margin: auto;}
