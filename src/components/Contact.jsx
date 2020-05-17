@@ -7,7 +7,9 @@ function Contact(props) {
   return (
     <div className="main-wraper">
       <button onClick={() => goBack()}>Go Back</button>
-      Contact Page
+      <div className="content">
+        <h2>How to reach us</h2>
+      </div>
     </div>
   );
 }

@@ -7,7 +7,9 @@ function Booking(props) {
   return (
     <div className="main-wraper">
       <button onClick={() => goBack()}>Go Back</button>
-     Booking Page
+      <div className="content">
+        <h2>Book with Us</h2>
+      </div>
     </div>
   );
 }

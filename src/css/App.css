@@ -165,13 +165,63 @@ body {
   padding: 1em;
   border: 6px groove #FEEA00;
 }
-.app header h2 {
+.app header .title {
+  padding: 0.5em;
+}
+.app header .title h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 2em;
   font-weight: bold;
   font-style: italic;
+}
+.app header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.app header nav a {
+  color: #FEFADC;
+  text-decoration: none;
+  padding: 1em;
+}
+.app header nav a:hover {
+  background-color: #FEFADC;
+  color: #050816;
+}
+.app .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app .main .main-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.app .main .main-wraper button {
+  background-color: #FEEA00;
+  padding: 1em;
+  border: 4px groove #FEEA00;
+}
+.app .main .main-wraper .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.app .main .main-wraper .content p {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+.app .main .main-wraper .content h2 {
+  font-size: 1.5em;
 }
 .app footer {
   display: flex;

@@ -7,7 +7,9 @@ function About(props) {
   return (
     <div className="main-wraper">
       <button onClick={() => goBack()}>Go Back</button>
-      About Page
+      <div className="content">
+        <p>About the Owners</p>
+      </div>
     </div>
   );
 }

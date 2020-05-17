@@ -16,7 +16,7 @@ export default function App() {
           <h2>Pet Paddock</h2>
         </div>
         <nav>
-        <Link to="/">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/booking">Book</Link>
